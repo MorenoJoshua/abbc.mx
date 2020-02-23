@@ -7,7 +7,7 @@ import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-
+import { assetUrl } from "./helpers";
 interface AppProps {}
 interface AppState {}
 
@@ -26,8 +26,8 @@ class App extends Component<AppProps, AppState> {
           />
           <div className="row w-100">
             <div className="col-4">
-              <Card gradient>
-                <div className="w-100" style={{ height: "270px", backgroundImage: `url('${assetUrl('')}')` }} />
+              <Card gradient bg={assetUrl("Image 64.png")}>
+                <div className="w-100" style={{ height: "270px" }} />
               </Card>
             </div>
             <div className="col-4">

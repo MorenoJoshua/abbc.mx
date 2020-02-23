@@ -45,6 +45,10 @@ $grid-gutter: 32px;
     background-size: cover;
     background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+&-reverse {
+  @extend .bg-gradient-mono;
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
   }
 }
 .s-between {
