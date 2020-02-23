@@ -14,8 +14,12 @@ const Card = ({ gradient, bg, children }) => (
         })
       }}
     />
-    {gradient && <div className="layers-layer bg-gradient-mono-reverse h-100 w-100" />}
-    <div className="layers-layer">{children}</div>
+    {gradient && (
+      <div className="layers-layer bg-gradient-mono-reverse h-100 w-100" />
+    )}
+    <div className="layers-layer" style={{ zIndex: 1 }}>
+      {children}
+    </div>
   </div>
 );
 

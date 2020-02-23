@@ -26,16 +26,38 @@ class App extends Component<AppProps, AppState> {
           />
           <div className="row w-100">
             <div className="col-4">
-              <Card gradient bg={assetUrl("Image 64.png")}>
-                <div className="w-100" style={{ height: "270px" }} />
+              <Card gradient bg={assetUrl("Image 8.png")}>
+                <div
+                  className="w-100 text-white d-flex justify-content-start align-items-end p-1 px-2"
+                  style={{ height: "270px" }}
+                >
+                  El Equipo
+                </div>
               </Card>
             </div>
+            
             <div className="col-4">
-              <Card gradient>Nuestro Blog</Card>
+              <Card gradient bg={assetUrl("Image 8.png")}>
+                <div
+                  className="w-100 text-white d-flex justify-content-start align-items-end p-1 px-2"
+                  style={{ height: "270px" }}
+                >
+                  Nuestro Blog
+                </div>
+              </Card>
             </div>
+            
             <div className="col-4">
-              <Card gradient>Eventos</Card>
+              <Card gradient bg={assetUrl("Image 8.png")}>
+                <div
+                  className="w-100 text-white d-flex justify-content-start align-items-end p-1 px-2"
+                  style={{ height: "270px" }}
+                >
+                  E
+                </div>
+              </Card>
             </div>
+            
           </div>
         </Section>
         <Section id="baristaBattleJumbotron" className="bg-danger" wide>
