@@ -1,0 +1,15 @@
+.navbar {
+  position: absolute;
+  width: 100vw;
+  min-height: 20px;
+  z-index: 99;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  &-button {
+    &Î:last-of-type {
+      padding-right: 0;
+    }
+    padding: 0 10px;
+  }
+}

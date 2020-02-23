@@ -5,7 +5,7 @@ import Section from "./components/section";
 import Header from "./sections/header";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
-
+import Navbar from "./components/navbar";
 interface AppProps {}
 interface AppState {}
 
@@ -13,6 +13,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
+        <Navbar />
         <Section id="header" className="bg-danger" center wide height="300px">
           <Header />
         </Section>
