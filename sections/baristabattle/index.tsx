@@ -17,8 +17,8 @@ const BaristaBattle = () => (
               style={{ width: "100px" }}
               src={assetUrl("ABBCWhite-18.png")}
             />
-            <span>
-              Una comunidad de baristas en Baja California y San Diego
+            <span className="text-sm text-white text-right" > 
+              Una comunidad de baristas<br/>en Baja California y San Diego
             </span>
           </div>
         </div>
