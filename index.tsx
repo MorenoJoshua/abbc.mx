@@ -26,7 +26,9 @@ class App extends Component<AppProps, AppState> {
           />
           <div className="row w-100">
             <div className="col-4">
-              <Card gradient>El Equipo</Card>
+              <Card gradient>
+                <div className="w-100" style={{ height: "270px", backgroundImage: `url('${assetUrl('')}')` }} />
+              </Card>
             </div>
             <div className="col-4">
               <Card gradient>Nuestro Blog</Card>
@@ -53,7 +55,7 @@ class App extends Component<AppProps, AppState> {
             </div>
           </div>
         </Section>
-        <Footer />
+        {/*<Footer /> */}
       </div>
     );
   }

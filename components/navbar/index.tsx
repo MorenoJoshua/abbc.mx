@@ -6,12 +6,12 @@ type NavbarProps = {};
 class Navbar extends React.Component<NavbarProps> {
   render() {
     return (
-      <div className="navbar">
+      <div className="navbar pt-4">
         <div className="container">
           <div>
             <img className="navbar-image" src={assetUrl("ABBCWhite-1.png")} />
           </div>
-          <div className="d-flex align-items-start" style={{h}}>
+          <div className="d-flex align-items-start" style={{ height: "100px" }}>
             <span className="navbar-button">Conocenos</span>
             <span className="navbar-button">Blog</span>
             <span className="navbar-button">Talleres</span>
