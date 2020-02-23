@@ -6,6 +6,7 @@ import Header from "./sections/header";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 interface AppProps {}
 interface AppState {}
 
@@ -51,9 +52,7 @@ class App extends Component<AppProps, AppState> {
             </div>
           </div>
         </Section>
-        <Section id="footer" className="bg-coffee text-white footer">
-          Footer
-        </Section>
+        <Footer/>
       </div>
     );
   }

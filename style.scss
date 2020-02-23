@@ -39,8 +39,9 @@ $grid-gutter: 32px;
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   }
 }
-.footer {
-
+.s-between {
+  display: flex;
+  justify-content: space-between;
 }
 .layers {
   &-container {
