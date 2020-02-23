@@ -23,7 +23,7 @@ const QuienesSomos = () => (
       </div>
 
       <div className="col-4">
-        <Card gradient bg={assetUrl("Image 8.png")}>
+        <Card gradient bg={assetUrl("Image .png")}>
           <div
             className="w-100 text-white d-flex justify-content-start align-items-end p-1 px-2"
             style={{ height: "270px" }}
@@ -34,12 +34,12 @@ const QuienesSomos = () => (
       </div>
 
       <div className="col-4">
-        <Card gradient bg={assetUrl("Image 8.png")}>
+        <Card gradient bg={assetUrl("Image -121.png")}>
           <div
             className="w-100 text-white d-flex justify-content-start align-items-end p-1 px-2"
             style={{ height: "270px" }}
           >
-            E
+            Eventos
           </div>
         </Card>
       </div>
