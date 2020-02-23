@@ -12,7 +12,7 @@ const BaristaBattle = () => (
         }}
       >
         <div className="container h-100 d-flex justify-content-end align-items-center">
-          <div className=" d-flex flex-column text-sm tex-ri">
+          <div className="t d-flex flex-column text-sm align-items-end">
             <img
               style={{ width: "100px" }}
               src={assetUrl("ABBCWhite-18.png")}
