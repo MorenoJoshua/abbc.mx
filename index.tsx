@@ -4,6 +4,7 @@ import "./style.scss";
 import Section from "./components/section";
 import Bienvenido from "./sections/bienvenido";
 import QuienesSomos from "./sections/quienessomos";
+import BaristaBattle from "./sections/baristabattle";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
@@ -19,9 +20,7 @@ class App extends Component<AppProps, AppState> {
         <Navbar />
         <Bienvenido />
         <QuienesSomos />
-        <Section id="baristaBattleJumbotron" className="bg-danger" wide>
-          <div className="container text-right">Barista Battle</div>
-        </Section>
+        <BaristaBattle/>
         <Section id="talleres" className="flex-column" center>
           <HeaderParagraph header="Talleres" />
           <div className="row w-100">
