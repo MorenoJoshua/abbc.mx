@@ -6,5 +6,6 @@ const mergeClassNames: (mergeClassNamesParams) => string = (...classes) => {
   );
   return Array.from(new Set(allStrings)).join(" ");
 };
-
-export { mergeClassNames };
+const assetUrl = route =>
+  `https://raw.githubusercontent.com/MorenoJoshua/abbc.mx/master/assets/${route}`;
+export { mergeClassNames, assetUrl };

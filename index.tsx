@@ -7,9 +7,11 @@ import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { assetURL } from "./helpers";
 interface AppProps {}
 interface AppState {}
 
+//https://raw.githubusercontent.com/MorenoJoshua/abbc.mx/master/assets/ABBCWhite-1.png
 class App extends Component<AppProps, AppState> {
   render() {
     return (
@@ -17,6 +19,7 @@ class App extends Component<AppProps, AppState> {
         <Navbar />
         <Section id="header" className="bg-danger" center wide height="300px">
           <Header />
+          <img src={assetURL("ABBCWhite-1.png")} />
         </Section>
         <Section id="quienesSomos" className="d-flex flex-column" center>
           <HeaderParagraph
@@ -52,7 +55,7 @@ class App extends Component<AppProps, AppState> {
             </div>
           </div>
         </Section>
-        <Footer/>
+        <Footer />
       </div>
     );
   }
