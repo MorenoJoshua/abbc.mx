@@ -1,8 +1,45 @@
 @import '~bootstrap/scss/bootstrap';
 
+$coffee: #4F3D39;
+$card-border-radius: 24px;
+
+$grid-gutter: 32px;
+
 .c-c {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
+  // background: #eee;
+}
+
+.text {
+  &-coffee {
+    color: $coffee;
+  }
+  &-heroHeader {
+    font-size: 50pt;
+    font-weight: light;
+    font-family: Roboto;
+  }
+}
+
+.bg-gradient {
+  &mono {
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  }
+}
+
+.layers {
+  &-container {
+    position: relative;
+    width: inherit;
+    height: inherit;
+  }
+  &-layer {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    // display: block;
+  }
 }
