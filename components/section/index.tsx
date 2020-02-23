@@ -17,7 +17,7 @@ class Section extends React.Component<SectionProps> {
       className,
       height
     } = this.props;
-    const containerClass = wide ? "container-fluid" : "container";
+    const containerClass = wide ? "container-fluid px-0" : "container";
     const centerClass = center ? "c-c" : "";
 
     return (
