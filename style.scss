@@ -16,6 +16,11 @@ $grid-gutter: 32px;
   // background: #eee;
 }
 
+.bg {
+  &-coffee {
+    background: $coffee;
+  }
+}
 .text {
   &-coffee {
     color: $coffee;
@@ -34,7 +39,9 @@ $grid-gutter: 32px;
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   }
 }
+.footer {
 
+}
 .layers {
   &-container {
     position: relative;

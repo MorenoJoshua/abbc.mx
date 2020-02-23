@@ -1,0 +1,8 @@
+.card {
+  &.layers-container .layers-layer:last-of-type {
+    position: static;
+  }
+  border-radius: 12px;
+  overflow: hidden;
+  background: pink;
+}
