@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import "./style.scss";
 import Section from "./components/section";
-import Header from "./sections/header";
+import Bienvenido from "./sections/bienvenido";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
@@ -16,9 +16,7 @@ class App extends Component<AppProps, AppState> {
     return (
       <div className="main">
         <Navbar />
-        <Section id="header" className="" center wide height="500px">
-          <Header />
-        </Section>
+        <Bienvenido />
         <Section id="quienesSomos" className="d-flex flex-column" center>
           <HeaderParagraph
             header="Quienes somos?"
@@ -35,7 +33,7 @@ class App extends Component<AppProps, AppState> {
                 </div>
               </Card>
             </div>
-            
+
             <div className="col-4">
               <Card gradient bg={assetUrl("Image 8.png")}>
                 <div
@@ -46,7 +44,7 @@ class App extends Component<AppProps, AppState> {
                 </div>
               </Card>
             </div>
-            
+
             <div className="col-4">
               <Card gradient bg={assetUrl("Image 8.png")}>
                 <div
@@ -57,7 +55,6 @@ class App extends Component<AppProps, AppState> {
                 </div>
               </Card>
             </div>
-            
           </div>
         </Section>
         <Section id="baristaBattleJumbotron" className="bg-danger" wide>
