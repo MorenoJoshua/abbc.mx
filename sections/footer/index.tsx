@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "../../helpers";
 import "./style.scss";
 
 // TODO: Animacion
@@ -8,7 +9,9 @@ class Footer extends React.Component<NavbarProps> {
     return (
       <div className="footer bg-coffee">
         <div className="container s-between">
-          <div>Logo</div>
+          <div className="">
+            <img style={{ width: "130px" }} src={assetUrl("ABBCWhite-1.png")} />
+          </div>
           <div className="d-flex flex-column text-right">
             <span>Contactanos en:</span>
             <span>contacto@abbc.mx</span>

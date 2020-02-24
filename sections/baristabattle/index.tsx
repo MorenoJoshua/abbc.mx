@@ -7,7 +7,7 @@ const BaristaBattle = () => (
       <div
         className="layers-layer"
         style={{
-          backgroundPosition:
+          backgroundPosition: 'center center',
           backgroundSize: "cover",
           backgroundImage: `url('${assetUrl("Image -52.png")}')`
         }}

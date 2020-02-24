@@ -10,7 +10,7 @@ import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
 import Padded from "./components/padded";
-import Footer from "./components/footer";
+import Footer from "./sections/footer";
 import { assetUrl } from "./helpers";
 interface AppProps {}
 interface AppState {}
