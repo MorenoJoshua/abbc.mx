@@ -15,10 +15,12 @@ const BaristaBattle = () => (
           <div className="t d-flex flex-column text-sm align-items-end">
             <img
               style={{ width: "100px" }}
-              src={assetUrl("ABBCWhite-18.png")}
+              src={assetUrl("BaristaBattleWhite.png")}
             />
-            <span className="text-sm text-white text-right" > 
-              Una comunidad de baristas<br/>en Baja California y San Diego
+            <span className="text-sm text-white text-right mt-3">
+              Una comunidad de baristas
+              <br />
+              en Baja California y San Diego
             </span>
           </div>
         </div>

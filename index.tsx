@@ -22,7 +22,7 @@ class App extends Component<AppProps, AppState> {
         <Navbar />
         <Bienvenido />
         <QuienesSomos />
-        <Padded pad="180 0 1 0">
+        <Padded pad="180 0 180 0">
           <BaristaBattle />
         </Padded>
         {/*<Talleres/>*/}
