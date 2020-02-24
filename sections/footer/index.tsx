@@ -8,7 +8,7 @@ class Footer extends React.Component<NavbarProps> {
   render() {
     return (
       <div className="footer bg-coffee">
-        <div className="container s-between">
+        <div className="container py-3 s-between">
           <div className="">
             <img style={{ width: "130px" }} src={assetUrl("ABBCWhite-1.png")} />
           </div>
