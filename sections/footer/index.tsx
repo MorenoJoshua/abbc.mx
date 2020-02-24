@@ -2,6 +2,10 @@ import React from "react";
 import { assetUrl } from "../../helpers";
 import "./style.scss";
 
+const iconstyle = {
+  width: '32px',
+  marginLeft: '10px'
+}
 // TODO: Animacion
 type NavbarProps = {};
 class Footer extends React.Component<NavbarProps> {
@@ -16,7 +20,14 @@ class Footer extends React.Component<NavbarProps> {
             <span>Contactanos en:</span>
             <span>contacto@abbc.mx</span>
             <span>664- 552- 6162</span>
-            <span>(F) (I)</span>
+            <span>
+              <span>
+                <img style={iconstyle} src={assetUrl("f.png")} />
+              </span>
+              <span>
+                <img style={iconstyle} src={assetUrl("ig.png")} />
+              </span>
+            </span>
           </div>
         </div>
       </div>

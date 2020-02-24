@@ -9,6 +9,9 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  &, img {
+    transition: 200ms linear;
+      }
   &-button {
     &:last-of-type {
       padding-right: 0;
