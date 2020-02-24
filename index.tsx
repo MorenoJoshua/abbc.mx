@@ -5,6 +5,7 @@ import Section from "./components/section";
 import Bienvenido from "./sections/bienvenido";
 import QuienesSomos from "./sections/quienessomos";
 import BaristaBattle from "./sections/baristabattle";
+import Talleres from "./sections/talleres";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
@@ -21,21 +22,8 @@ class App extends Component<AppProps, AppState> {
         <Bienvenido />
         <QuienesSomos />
         <BaristaBattle/>
-        <Section id="talleres" className="flex-column" center>
-          <HeaderParagraph header="Talleres" />
-          <div className="row w-100">
-            <div className="col-4">
-              <Card gradient>Img</Card>
-            </div>
-            <div className="col-4">
-              <Card gradient>Img</Card>
-            </div>
-            <div className="col-4">
-              <Card gradient>Img</Card>
-            </div>
-          </div>
-        </Section>
-        {/*<Footer /> */}
+        {/*<Talleres/>*/}
+        {<Footer />}
       </div>
     );
   }
