@@ -21,17 +21,17 @@ class Navbar extends React.Component<NavbarProps> {
   render() {
     return (
       <div
-        className={`navbar pt-4 ${
+        className={`navbar${
           this.state.top ? "bg-transparent" : "bg-coffee"
         }`}
       >
-        <div className="container">
+        <div className="container py-3">
           <div>
             <img className="navbar-image" style={{
-              ...!this.state.top ? {width: "5px"} : {}
+              ...!this.state.top ? {width: "50px"} : {}
             }} src={assetUrl("ABBCWhite-1.png")} />
           </div>
-          <div className="d-flex align-items-start" style={{ height: "100px" }}>
+          <div className="d-flex align-items-start">
             <span className="navbar-button">Conocenos</span>
             <span className="navbar-button">Blog</span>
             <span className="navbar-button">Talleres</span>
