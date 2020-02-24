@@ -9,6 +9,7 @@ import Talleres from "./sections/talleres";
 import HeaderParagraph from "./components/header-paragraph";
 import Card from "./components/card";
 import Navbar from "./components/navbar";
+import Padded from "./components/padded";
 import Footer from "./components/footer";
 import { assetUrl } from "./helpers";
 interface AppProps {}
@@ -21,7 +22,9 @@ class App extends Component<AppProps, AppState> {
         <Navbar />
         <Bienvenido />
         <QuienesSomos />
-        <BaristaBattle/>
+        <Padded pad="180 0 1 0">
+          <BaristaBattle />
+        </Padded>
         {/*<Talleres/>*/}
         {<Footer />}
       </div>
