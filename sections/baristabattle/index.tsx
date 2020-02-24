@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../../components/section";
+import Section from "../../components/sexction";
 import { assetUrl } from "../../helpers";
 const BaristaBattle = () => (
   <Section id="baristaBattleJumbotron" className="" gradient wide>

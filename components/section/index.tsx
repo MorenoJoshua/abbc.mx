@@ -6,6 +6,7 @@ type SectionProps = {
   backgroundImage?: string;
   className?: string;
   height?: string;
+  children?: React.ElementType
 };
 class Section extends React.Component<SectionProps> {
   render() {
