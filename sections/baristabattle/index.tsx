@@ -15,7 +15,7 @@ const BaristaBattle = () => (
         <div className="container h-100 d-flex justify-content-end align-items-center">
           <div className="t d-flex flex-column text-sm align-items-end">
             <img
-              style={{ width: "100px" }}
+              style={{ width: "180px" }}
               src={assetUrl("BaristaBattleWhite.png")}
             />
             <span className="text-sm text-white text-right mt-3">
