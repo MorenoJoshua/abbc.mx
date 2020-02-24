@@ -3,10 +3,11 @@ import Section from "../../components/section";
 import { assetUrl } from "../../helpers";
 const BaristaBattle = () => (
   <Section id="baristaBattleJumbotron" className="" gradient wide>
-    <div className="layers-container bg-danger" style={{ height: "300px" }}>
+    <div className="layers-container bg-danger" style={{ height: "400px" }}>
       <div
         className="layers-layer"
         style={{
+          backgroundPosition:
           backgroundSize: "cover",
           backgroundImage: `url('${assetUrl("Image -52.png")}')`
         }}
