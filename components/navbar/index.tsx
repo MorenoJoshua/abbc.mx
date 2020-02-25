@@ -21,7 +21,7 @@ class Navbar extends React.Component<NavbarProps> {
   render() {
     return (
       <div
-        className={`navbar${
+        className={`navbar ${
           this.state.top ? "bg-transparent" : "bg-coffee"
         }`}
       >
